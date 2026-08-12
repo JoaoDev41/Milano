@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Milano Alfaiataria — elegância masculina, ternos de corte preciso e atendimento exclusivo."
+    />
+    <meta name="theme-color" content="#d79756" />
+    <title>Milano — Alfaiataria Masculina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.26/dist/lenis.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-loader" aria-hidden="true">
+      <span>MILANO</span>
+    </div>
+
+    <header class="site-header" data-theme="light">
+      <a class="mini-logo" href="#inicio" aria-label="Milano, início">Milano</a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#novidades">Novidades</a>
+        <a href="#sobre">Sobre nós</a>
+      </nav>
+      <a class="header-contact" href="https://wa.me/5571983292315" target="_blank" rel="noreferrer">
+        Fale conosco <span>↗</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+        <span class="sr-only">Abrir menu</span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav aria-label="Navegação mobile">
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#novidades">Novidades</a>
+        <a href="#sobre">Sobre nós</a>
+      </nav>
+      <p>Elegância em cada detalhe.</p>
+    </div>
+
+    <main>
+      <section class="hero-scene" id="inicio" aria-label="Apresentação Milano">
+        <video class="hero-video" autoplay muted loop playsinline preload="auto" aria-hidden="true">
+          <source src="IMGS/VIDEO HERO.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-color" aria-hidden="true"></div>
+
+        <div class="hero-opening">
+          <p class="hero-kicker">Alfaiataria masculina · Salvador</p>
+          <h1 class="hero-word">MILANO</h1>
+          <p class="scroll-cue"><span></span> Role para descobrir</p>
+        </div>
+
+        <div class="hero-story">
+          <p class="eyebrow">Corte preciso · Presença atemporal</p>
+          <h2>Vestir bem<br />é uma forma<br />de expressão.</h2>
+          <p>
+            Peças que unem tradição, conforto e contemporaneidade para acompanhar
+            todos os seus momentos.
+          </p>
+          <a class="button button-light" href="#produtos">Conheça a coleção <span>↘</span></a>
+        </div>
+        <p class="hero-index">MILANO / 01</p>
+      </section>
+
+      <section class="collection" id="produtos">
+        <div class="collection-shell">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Coleção 2026</p>
+              <h2>Pronto para vestir</h2>
+            </div>
+            <p class="collection-counter"><span>01</span> / 05</p>
+          </div>
+
+          <div class="product-viewport">
+            <div class="product-track">
+              <article class="product-card" data-index="01">
+                <div class="product-image"><img src="IMGS/TERNO1.webp" alt="Terno Milano cinza claro" /></div>
+                <div class="product-info">
+                  <div><h3>Terno Slim Fit Liso</h3><p>Cinza claro</p></div>
+                  <strong>R$ 1.899,90</strong>
+                </div>
+              </article>
+              <article class="product-card" data-index="02">
+                <div class="product-image"><img src="IMGS/TERNO2.webp" alt="Terno Milano azul marinho" /></div>
+                <div class="product-info">
+                  <div><h3>Terno Slim Fit Liso</h3><p>Azul marinho</p></div>
+                  <strong>R$ 2.199,90</strong>
+                </div>
+              </article>
+              <article class="product-card" data-index="03">
+                <div class="product-image"><img src="IMGS/TERNO3.webp" alt="Terno Milano cinza médio" /></div>
+                <div class="product-info">
+                  <div><h3>Terno Premium</h3><p>Cinza médio</p></div>
+                  <strong>R$ 1.999,90</strong>
+                </div>
+              </article>
+              <article class="product-card" data-index="04">
+                <div class="product-image"><img src="IMGS/TERNO4.webp" alt="Terno Milano bege" /></div>
+                <div class="product-info">
+                  <div><h3>Costume Linho</h3><p>Bege areia</p></div>
+                  <strong>R$ 2.399,90</strong>
+                </div>
+              </article>
+              <article class="product-card" data-index="05">
+                <div class="product-image"><img src="IMGS/TERNO5.webp" alt="Terno Milano grafite" /></div>
+                <div class="product-info">
+                  <div><h3>Terno Executive</h3><p>Grafite</p></div>
+                  <strong>R$ 2.299,90</strong>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="collection-progress" aria-hidden="true"><span></span></div>
+        </div>
+      </section>
+
+      <section class="news" id="novidades">
+        <div class="marquee" aria-hidden="true">
+          <div class="marquee-track">
+            <span>Novidades</span><i>✦</i><span>Novidades</span><i>✦</i><span>Novidades</span><i>✦</i>
+            <span>Novidades</span><i>✦</i><span>Novidades</span><i>✦</i><span>Novidades</span><i>✦</i>
+          </div>
+        </div>
+
+        <div class="news-stage">
+          <div class="news-intro">
+            <p class="eyebrow">Diário Milano</p>
+            <p>Inspiração, estilo e novas histórias.</p>
+          </div>
+          <div class="news-grid">
+            <article class="news-card news-card-left">
+              <img src="IMGS/DESTAQUE1.webp" alt="Homem vestindo terno cinza ao ar livre" />
+              <div><span>01</span><p>O terno certo para cada ocasião</p></div>
+            </article>
+            <article class="news-card news-card-center">
+              <img src="IMGS/DESTAQUE2.webp" alt="Homem com terno clássico em cenário urbano" />
+              <div><span>02</span><p>Contemporâneo, premium, essencial</p></div>
+            </article>
+            <article class="news-card news-card-right">
+              <img src="IMGS/DESTAQUE3.webp" alt="Homem vestindo terno azul em paisagem natural" />
+              <div><span>03</span><p>Novos tons, a mesma elegância</p></div>
+            </article>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="about" id="sobre">
+        <div class="about-orbit" aria-hidden="true">M</div>
+        <div class="about-content">
+          <p class="eyebrow">Nossa essência · Desde 2010</p>
+          <h2>Quem somos nós</h2>
+          <div class="about-copy">
+            <p>
+              A Milano nasceu para transformar o ato de vestir em uma experiência de
+              identidade. Selecionamos tecidos, cortes e acabamentos com o cuidado de
+              quem acredita que elegância se revela nos detalhes.
+            </p>
+            <p>
+              Entre o clássico e o contemporâneo, criamos uma curadoria masculina
+              versátil, precisa e pronta para acompanhar histórias que importam.
+            </p>
+          </div>
+          <a class="text-link" href="https://wa.me/5571983292315" target="_blank" rel="noreferrer">
+            Conheça nossa história <span>↗</span>
+          </a>
+        </div>
+        <div class="since-marquee" aria-hidden="true">
+          <div>
+            <span>Desde 2010</span><span>Desde 2010</span><span>Desde 2010</span>
+            <span>Desde 2010</span><span>Desde 2010</span><span>Desde 2010</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contato">
+      <div class="footer-top">
+        <a class="footer-brand" href="#inicio">Milano</a>
+        <p class="footer-callout">Sua próxima<br />história começa<br /><em>bem vestido.</em></p>
+      </div>
+      <div class="footer-details">
+        <nav aria-label="Links do rodapé">
+          <a href="#produtos">Coleção</a>
+          <a href="#novidades">Novidades</a>
+          <a href="#sobre">Sobre nós</a>
+        </nav>
+        <div>
+          <p>Atendimento</p>
+          <a href="tel:+5571983292315">(71) 98329-2315</a>
+          <a href="https://instagram.com" target="_blank" rel="noreferrer">@milanostore</a>
+        </div>
+        <a class="whatsapp-button" href="https://wa.me/5571983292315" target="_blank" rel="noreferrer">
+          Fale conosco no WhatsApp <span>↗</span>
+        </a>
+      </div>
+      <div class="footer-bottom">
+        <p>Moda masculina · Salvador, BA</p>
+        <h2>MILANO</h2>
+        <p>© 2026</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/lenis@1.3.26/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
